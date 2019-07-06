@@ -18,7 +18,7 @@ app.use(express.urlencoded());
 
 
 app.get('/', (req,res) => res.json({
-	msg: "Hello! Amigo"
+	msg: "Hello! Amigo!"
 }));
 
 app.post('/users', (req, res) =>{
